@@ -1,0 +1,145 @@
+html {
+	background: #6E787F;
+	overflow: hidden;
+	font-family: 'Oswald', cursive;
+	width: 100%;
+}
+
+body {
+	background: white;
+	width: 420px;
+	margin: 0 auto;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+h1 {
+	color: white;
+	background: #c5451c;
+	margin: 0;
+	height: 2%;
+	text-align: center;
+	font-weight: 100;
+	height: 6%;
+	padding: 0 0 15px 0;
+	font-size: 32px;
+}
+
+.stats {
+	width: 100%;
+	height: 39%;
+}
+
+.stats-charts {
+	height: 27%;
+    padding-top: 15px;
+    width: 90%;
+}
+
+#container {
+	height: 100%;
+}
+
+.topwords {
+	list-style: none;
+}
+
+.topwords li {
+	float: left;
+}
+
+.current {
+	height: 66%;
+}
+
+.active {
+	background: #c5451c;
+	vertical-align: middle;
+	padding: 10px 0 20px 0;
+	color: #E7EBEE;
+	height: 14%;
+}
+
+.active-text {
+	display: inline-block;
+	vertical-align: middle;
+	width: 75%;
+	padding-left: 2%;
+}
+
+.messages {
+	margin: 0;
+	padding: 0;
+	height: 69%;
+	list-style: none;
+	overflow-y: scroll;
+	font-family: 'Muli', sans-serif;
+	border-bottom: 75px solid #c5451c;
+}
+
+.messages li {
+	padding: 5px 25px 5px 15px;
+	border-bottom: 1px solid #ececec;
+}
+
+.picture {
+	border-radius: 300px;
+	display: inline-block;
+	width: 70px;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+.message {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	vertical-align: middle;
+	font-size: 32px;
+}
+
+.handle {
+	display: block;
+	font-family: 'Muli', sans-serif;
+}
+
+.highcharts-credits {
+	display: none;
+}
+
+
+@media only screen and (min-width: 780px) {
+	body {
+		border-top-left-radius: 50px;
+		border-top-right-radius: 50px;
+		margin: 10px auto 0 auto;
+		width: 600px;
+	}
+
+	h1 {
+		border-top-right-radius: 31px;
+	    border-top-left-radius: 31px;
+	}
+}
+
+
+html {
+	height: 100%;
+	width: 100%;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(#2F2727), color-stop(0.25, #6E787F), color-stop(0.5, #2F2727), color-stop(0.75, #6E787F), to(#2F2727));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(left, #2F2727, #6E787F, #2F2727, #6E787F, #2F2727);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, #2F2727, #6E787F, #2F2727, #6E787F, #2F2727);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(left, #2F2727, #6E787F, #2F2727, #6E787F, #2F2727);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, #2F2727, #6E787F, #2F2727, #6E787F, #2F2727);
+}
