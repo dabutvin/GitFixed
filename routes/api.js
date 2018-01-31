@@ -40,7 +40,7 @@ function fetchItems(page) {
 			headers:
 			{
 				"Accept" : "application/vnd.github.cloak-preview+json",
-				"User-Agent": "Githorld"
+				"User-Agent": "GitFixed"
 			}
 		}, function(error, response, body) {
         if(error) {
