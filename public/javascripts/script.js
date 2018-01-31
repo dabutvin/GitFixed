@@ -111,7 +111,7 @@ var chartOptions = {
 		categories: [],
 		labels: {
 			style: {
-				fontSize:'25px'
+				fontSize:'15px'
 			}
 		}
 	},
