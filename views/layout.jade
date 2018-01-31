@@ -11,3 +11,9 @@ html
     script(src='http://code.jquery.com/jquery-2.2.4.min.js')
     script(src='http://code.highcharts.com/highcharts.js')
     script(src='/javascripts/script.js')
+    script(async, src='https://www.googletagmanager.com/gtag/js?id=UA-105332493-3')
+    script.
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-105332493-3');
