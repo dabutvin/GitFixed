@@ -93,7 +93,7 @@ function renderWordsMap() {
 	myChart = Highcharts.chart(chartOptions);
 }
 
-var wordRegex = /typo|Typo|bug|Bug|little|Little|tiny|Tiny|oops|Oops|whoops|Whoops|minor|Minor|logic|Logic|format|Format/g;
+var wordRegex = /interval|Interval|map|Map|XSS|xss|demo|Demo|email|Email|test|Test|css|CSS|Css|typo|Typo|known|Known|little|Little|tiny|Tiny|oops|Oops|whoops|Whoops|minor|Minor|logic|Logic|format|Format|merge|Merge|date|Date/g;
 
 var myChart = {};
 var chartOptions = {
