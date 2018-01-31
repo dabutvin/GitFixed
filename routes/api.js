@@ -53,7 +53,11 @@ function fetchItems(page) {
     			if(result && result.items) {
 		            
 		            for(var i =0; i < result.items.length; i++) {
-		            	itemsCache[result.items[i].sha] = result.items[i];
+		            	var item = result.items[i];
+
+		            	if(item && item.sha) {
+		            		itemsCache[item.sha] = item;
+		            	}
 				    }
 				}
 	        } catch (ex) {
