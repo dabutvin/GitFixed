@@ -14,7 +14,8 @@ router.get('/', function(req, res, next) {
 	    	sha: item.sha,
 	    	message: item.commit.message,
 	    	picture: item.author.avatar_url,
-	    	handle: item.author.login
+	    	handle: item.author.login,
+	    	url: item.html_url
 	    });
 	} else {
 		res.send(
