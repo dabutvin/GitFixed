@@ -86,7 +86,7 @@ function renderWordsMap() {
 	chartOptions.series = [{
 		name: 'Count',
 		data: topWords.map(function (word, index) {
-			return { y: word[1], color: index % 2 ? '#d8e9f5' : '#c5451c'};
+			return { y: word[1], color: index % 2 ? '#d8e9f5' : '#24292e'};
 		})
 	}];
 	
@@ -129,6 +129,6 @@ var chartOptions = {
         }
     },
     colors: [
-    	'#c5451c'
+    	'#24292e'
     ]
 };

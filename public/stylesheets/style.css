@@ -1,5 +1,5 @@
 html {
-	background: #6E787F;
+	background: #fafbfc;
 	overflow: hidden;
 	font-family: 'Oswald', cursive;
 	width: 100%;
@@ -17,7 +17,7 @@ body {
 
 h1 {
 	color: white;
-	background: #c5451c;
+	background: #24292e;
 	margin: 0;
 	height: 2%;
 	text-align: center;
@@ -60,7 +60,7 @@ a {
 }
 
 .active {
-	background: #c5451c;
+	background: #24292e;
 	vertical-align: middle;
 	padding: 10px 0 20px 0;
 	color: #E7EBEE;
@@ -81,7 +81,7 @@ a {
 	list-style: none;
 	overflow-y: scroll;
 	font-family: 'Muli', sans-serif;
-	border-bottom: 75px solid #c5451c;
+	border-bottom: 75px solid #24292e;
 }
 
 .messages li {
@@ -133,18 +133,4 @@ a {
 html {
 	height: 100%;
 	width: 100%;
-  /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, left top, right top, from(#2F2727), color-stop(0.25, #6E787F), color-stop(0.5, #2F2727), color-stop(0.75, #6E787F), to(#2F2727));
-
-  /* Safari 5.1+, Chrome 10+ */
-  background: -webkit-linear-gradient(left, #2F2727, #6E787F, #2F2727, #6E787F, #2F2727);
-
-  /* Firefox 3.6+ */
-  background: -moz-linear-gradient(left, #2F2727, #6E787F, #2F2727, #6E787F, #2F2727);
-
-  /* IE 10 */
-  background: -ms-linear-gradient(left, #2F2727, #6E787F, #2F2727, #6E787F, #2F2727);
-
-  /* Opera 11.10+ */
-  background: -o-linear-gradient(left, #2F2727, #6E787F, #2F2727, #6E787F, #2F2727);
 }
